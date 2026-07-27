@@ -1,2 +1,0 @@
-function chooseFile(input,target){document.getElementById(target).textContent=input.files[0]?"✓ "+input.files[0].name:""}
-function message(text){const t=document.createElement("div");t.textContent=text;t.style.cssText="position:fixed;right:22px;bottom:22px;background:#102544;color:#fff;padding:14px 18px;border-radius:11px;z-index:20;box-shadow:0 10px 30px #0003";document.body.appendChild(t);setTimeout(()=>t.remove(),2500)}
